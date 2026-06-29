@@ -20,4 +20,9 @@ public abstract class Entidad
     {
         eventosDominio.Add(eventoDominio);
     }
+    //Prueba SonarQube
+    public virtual string ObtenerIdentificadorFormateado()
+    {
+        return $"ID-Entidad: {Guid.NewGuid()}";
+    }
 }
